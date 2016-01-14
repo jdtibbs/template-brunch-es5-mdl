@@ -14,10 +14,24 @@
 <body>
 	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 		<header class="mdl-layout__header">
+			<div class="mdl-layout-icon "></div>
 			<div class="mdl-layout__header-row">
-				<span class="mdl-layout-title">Brunch - ES5 - Material Design Lite</span>
+				<span class="mdl-layout__title">Brunch - ES5 - Material Design Lite</span>
+				<div class="mdl-layout-spacer"></div>
+				<nav class="mdl-navigation mdl-layout--large-screen-only">
+					<a class="mdl-navigation__link" href="#">Nav 1</a>
+					<a class="mdl-navigation__link" href="#">Nav 2</a>
+				</nav>
 			</div>
 		</header>
+
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout__title">Brunch - ES5 - MDL</span>
+			<nav id="drawerNav" class="mdl-navigation">
+				<a class="mdl-navigation__link" href="#">Nav 1</a>
+				<a class="mdl-navigation__link" href="#">Nav 2</a>
+			</nav>
+		</div>
 
 		<main class="mdl-layout__content">
 
@@ -27,7 +41,7 @@
 					<span id='count' class="mdl-display1">0</span>
 				</div>
 
-				<div class="mdl-cell mdl-cell--12-col">
+				<div class="mdl-cell mdl-cell--12-col mdl-cell--1-col-phone">
 					<button id="increment" type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored jdt-button">
 						Increment
 					</button>
