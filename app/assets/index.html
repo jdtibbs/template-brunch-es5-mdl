@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.deep_purple-purple.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+
+	<title>Brunch-ES5-MDL</title>
+</head>
+
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<span class="mdl-layout-title">Brunch - ES5 - Material Design Lite</span>
+			</div>
+		</header>
+
+		<main class="mdl-layout__content">
+
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--12-col">
+					<span>Counter:</span>
+					<span id='count' class="mdl-display1">0</span>
+				</div>
+
+				<div class="mdl-cell mdl-cell--12-col">
+					<button id="increment" type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored jdt-button">
+						Increment
+					</button>
+					<button id="decrement" type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored jdt-button">
+						Decrement
+					</button>
+					<button id="reset" type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored jdt-button">
+						Reset
+					</button>
+				</div>
+
+			</div>
+		</main>
+	</div>
+
+	<script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+	<script type="text/javascript" src="/js/vendor.js"></script>
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script>
+	require('services/init').init();
+	</script>
+</body>
+
+</html>
