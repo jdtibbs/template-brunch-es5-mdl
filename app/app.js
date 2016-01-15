@@ -5,7 +5,7 @@
 		var drawerService = require('services/drawer.service');
 		var eventService = require('services/event.service');
 		var incrementFactory = require('services/increment.factory');
-		var nodeListService = require('services/node.list.service');
+		var nodeService = require('services/node.service');
 
 		var app = {
 			init: function() {
@@ -17,24 +17,18 @@
 					var count = documentService.getElementById('count');
 
 					eventService.addEventListener(documentService.getElementById('increment'), 'click', function() {
-						count.textContent = increment.increment();
+						nodeService.textContent(count, increment.increment());
 					});
 
 					eventService.addEventListener(documentService.getElementById('decrement'), 'click', function() {
-						count.textContent = increment.decrement();
+						nodeService.textContent(count, increment.decrement());
 					});
 
 					eventService.addEventListener(documentService.getElementById('reset'), 'click', function() {
-						count.textContent = increment.reset();
+						nodeService.textContent(count, increment.reset());
 					});
 
-					nodeListService.forEach(documentService.getElementById('drawerNav').childNodes, addNodeEvent);
-
-					function addNodeEvent(node) {
-						eventService.addEventListener(node, 'click', function() {
-							drawerService.toggle();
-						});
-					}
+					drawerService.init('drawerNav');
 				}
 			}
 		};
