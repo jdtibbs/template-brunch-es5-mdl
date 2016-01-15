@@ -1,12 +1,23 @@
 var test = require('tape');
 
-test('timing test', function(t) {
+
+test('math test', function(t) {
+	// TODO implement actual test
 	t.plan(2);
 
-	t.equal(typeof Date.now, 'function');
-	var start = Date.now();
+	var x = 1 + 3;
+	t.equal(x, 4);
 
-	setTimeout(function() {
-		t.equal(Date.now() - start, 100);
-	}, 100);
+	x = ++x;
+	t.equal(x, 5);
+
+});
+
+test('spelling test', function(t) {
+	// TODO implement actual test
+	t.plan(1);
+
+	var x = 'hello';
+	t.equal(x, 'hello');
+
 });
