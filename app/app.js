@@ -5,7 +5,6 @@
 		var drawerService = require('services/drawer.service');
 		var eventService = require('services/event.service');
 		var incrementFactory = require('services/increment.factory');
-		var nodeListService = require('services/node.list.service');
 		var nodeService = require('services/node.service');
 
 		var app = {
