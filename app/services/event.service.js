@@ -2,8 +2,8 @@
 	'use strict';
 
 	var service = {
-		addEventListener: function(element, event, fn) {
-			element.addEventListener(event, fn);
+		addEventListener: function(element, event, callback) {
+			element.addEventListener(event, callback);
 		}
 	};
 	module.exports = service;
