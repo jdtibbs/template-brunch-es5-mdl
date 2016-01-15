@@ -2,8 +2,8 @@
 
 This is an application template built with [Brunch](http://brunch.io), ES5, and [Material Design Lite](http://www.getmdl.io).
 
-Test are run using [tape](https://github.com/substack/tape).  
-Test results are piped to [faucet](https://github.com/substack/faucet).
+Tests are run using [tape](https://github.com/substack/tape).  
+Tests results are piped to [faucet](https://github.com/substack/faucet).
 
 ## Information
 
