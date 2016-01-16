@@ -1,5 +1,7 @@
 # Brunch - ES5 - Material Design Lite 
 
+[![Build Status](https://travis-ci.org/jdtibbs/template-brunch-es5-mdl.svg?branch=master)](https://travis-ci.org/jdtibbs/template-brunch-es5-mdl)
+
 This is an application template built with [Brunch](http://brunch.io), ES5, and [Material Design Lite](http://www.getmdl.io).
 
 Tests are run using [Tape](https://github.com/substack/tape).  
