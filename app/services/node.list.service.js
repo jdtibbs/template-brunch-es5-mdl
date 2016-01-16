@@ -3,7 +3,8 @@
 
 	var service = {
 		forEach: function(nodeList, callback) {
-			Array.prototype.forEach.call(nodeList, function(node) {
+			// NodeList is not an Array, slice can convert an Array like Object into an Array.
+			Array.prototype.slice.call(nodeList).forEach(function(node) {
 				callback(node);
 			});
 		}
