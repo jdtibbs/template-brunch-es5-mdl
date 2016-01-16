@@ -24,5 +24,5 @@ Tests results are piped to [Faucet](https://github.com/substack/faucet).
 	* To run tests:
 		* `npm run test`
 	* Reading:
-		* [Why I use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4#.71rnxb1c9)
+		* [Why I Use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4#.71rnxb1c9)
 		* [Testing JavaScript Modules with Tape](https://ponyfoo.com/articles/testing-javascript-modules-with-tape)
