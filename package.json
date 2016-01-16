@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "test": "tape app/**/*test.js | faucet"
+    "test": "tape app/**/*test.js"
   },
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.9",

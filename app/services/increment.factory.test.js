@@ -23,5 +23,5 @@ test('increment.factory test decrement', function(t) {
 test('increment.factory test reset', function(t) {
 	t.plan(1);
 
-	t.equal(increment.reset(), 0);
+	t.equal(increment.reset(), 999);
 });
