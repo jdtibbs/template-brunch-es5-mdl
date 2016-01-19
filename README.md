@@ -22,7 +22,8 @@ Tests results could be piped to [Faucet](https://github.com/substack/faucet).
 	* TAP-producing test harness for node and browses.
 	* See "scripts":{} in package.json for run configuration.
 	* To run tests:
-		* `npm run test`
+		* All tests: `npm run test`
+		* Individual test: `node ./app/services/round.service.test.js`
 	* Reading:
 		* [Why I Use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4#.71rnxb1c9)
 		* [Testing JavaScript Modules with Tape](https://ponyfoo.com/articles/testing-javascript-modules-with-tape)
